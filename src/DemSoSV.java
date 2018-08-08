@@ -22,7 +22,7 @@ public class DemSoSV {
         }
         int count = 0;
         System.out.println(" danh sach diem ");
-        for (int j =0; j < array.length; j++) {
+        for (int j = 0; j < array.length; j++) {
             System.out.println(array[j] + "\t");
             if (array[j] >= 5 && array[j] <= 10)
                 count++;
