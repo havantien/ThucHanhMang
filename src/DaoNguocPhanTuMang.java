@@ -28,7 +28,7 @@ public class DaoNguocPhanTuMang {
             array[j] = array[size - 1 - j];
             array[size - 1 - j] = temp;
         }
-        System.out.println( "dao nguoc mang: ", "");
+        System.out.println(" dao nguoc mang: ");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "\t");
         }
